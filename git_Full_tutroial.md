@@ -10,10 +10,6 @@ A Version Control System is a software tool that records, tracks, and manages ch
 
 
 
-Repository – stores files and their history
-
-
-
 1. 		**Repository – stores files and their history** 
 2. 		**Commit – a saved snapshot of changes**
 3. 		**Branch – parallel line of development**
@@ -119,6 +115,18 @@ A single central server stores all versions. Developers check out files and comm
 [**Download Link For Windows**](https://git-scm.com/install/windows)
 
 
+
+
+
+## **Why is user creation necessary?**
+
+
+
+**User creation in Git is necessary to identify the author of commits, support collaboration, track history, and link commits to remote platforms.**
+
+
+
+#### **Open your folder, right-click on it, and select “Git Bash Here.”**
 
 
 
@@ -256,6 +264,24 @@ Some Linux Commands
 ###### 	**chown user:user f   # change owner (admin)**
 
 
+
+
+
+# 2nd Step
+
+
+
+#### What is the use of **init** command in Git**?**
+
+
+
+###### **git init creates a new Git repository in the current directory.**
+
+
+
+#### **Command for init   (Possibly only one time for a Repository**
+
+		**git init                              \[ Creates a new Git repository in the current directory.]**
 
 
 
