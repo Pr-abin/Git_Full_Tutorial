@@ -127,16 +127,137 @@ A single central server stores all versions. Developers check out files and comm
    		git config --global user.email "write your email address" (assign yourself)
 
    		git config --global --list 	\[ To view all Global user]
-   Applies to all repositories for the current system user.**
+
+   		Applies to all repositories for the current system user.**
 
    ---
-2. ###### **User Creations Command Global User**
+2. **User Creations Command System level
+   		git config --system user.name "Your Name"   		(Assign Yourself)
+   		git config --system user.email "your email address"     (Assign Yourself)
 
-&nbsp;		git config --global user.name "Write here your user name" (assign yourself)
-   		git config --global user.email "write your email address" (assign yourself)
+   		Applies to all users on the system (rarely used).**
 
-   		git config --global --list 	\[ To view all Global user]
----
+   ---
+3. **User Creations Command Local User**
+ 		git config user.name "Write here your user name" (Assign yourself)
+   		git config user.email "write your email address" (Assign yourself)
+   ---
+
+###### 
+
+###### &nbsp;		git config --local --list 	\[ To view all Global users]
+
+
+
+###### &nbsp;		Applies only to the current repository.
+
+
+
+##### **To show the user name and email**
+
+##### 
+
+##### &nbsp;	git config user.name   \*\* for Know the name of the user 
+
+##### &nbsp;	git config user.email  \*\* for Know the user email
+
+
+
+### **To Delete The User \& Email Address**
+
+
+
+###### For Global Users 
+
+###### &nbsp;		git config --global --unset user.mane
+
+###### &nbsp;		git config --global --unset user.email
+
+###### 
+
+###### For System Users
+
+###### &nbsp;	     	     git config --system --unset user.name
+
+###### &nbsp;		     git config --system --unset user.email
+
+###### 
+
+###### For local User 
+
+###### &nbsp;		     git config --unset user.name
+
+###### &nbsp;		     git config --unset user.email
+
+
+Some Linux Commands
+===
+
+
+
+
+
+1. **Directory \& File Navigation  ls, cd, pwd
+
+   	ls              # list files
+   	ls -a           # show hidden files (.git)
+   	pwd             # current directory
+   	cd folder\_name  # change directory
+   	cd ..           # move up one directory**
+
+   ---
+2. **File \& Directory Management touch, rm, mv, cp
+
+   	mkdir project        # create directory
+   	rmdir folder         # remove empty directory
+   	rm file.txt          # delete file
+   	rm -r folder         # delete folder recursively
+   	m -rf .git          # force delete git repo (dangerous)
+   	cp a.txt b.txt       # copy file
+   	mv old new           # rename / move file
+   	touch file.txt       # create empty file**
+
+
+   ---
+3. **File Viewing \& Editing  cat, nano, vi
+   	cat file.txt         # view file content
+   	less file.txt        # scroll view
+   	more file.txt        # basic view
+   	nano file.txt        # terminal editor
+   	vi file.txt          # advanced editor**
+
+
+   ---
+4. **File Search \& Inspection
+   	find . -name file.txt     # search files
+   	grep "text" file.txt     # search text
+   	grep -r "text" .         # recursive search**
+
+   ---
+5. **Disk \& System Info (Occasional)
+   	df -h           # disk usage
+   	du -sh folder   # folder size
+   	whoami          # current user**
+
+   ---
+6. **Environment \& History (Very Useful)
+   	history            # command history
+   	clear              # clear terminal
+   	alias gs='git status'
+   	export PATH=...**
+
+   ---
+7. ###### **Permissions \& Ownership (Sometimes Needed)**
+7. 
+**###### &nbsp;	chmod 755 file.sh    # change permission**
+
+###### 	**chmod +x script.sh  # make executable**
+
+###### 	**chown user:user f   # change owner (admin)**
+
+
+
+
 
 
 
