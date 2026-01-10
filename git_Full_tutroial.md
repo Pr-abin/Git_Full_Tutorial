@@ -10,13 +10,13 @@ A Version Control System is a software tool that records, tracks, and manages ch
 
 
 
-1. 		**Repository – stores files and their history** 
-2. 		**Commit – a saved snapshot of changes**
-3. 		**Branch – parallel line of development**
-4. 		**Merge – combines changes**
-5. 		**History – record of all modifications**
+1. ###### &nbsp;	Repository – stores files and their history
+2. ###### &nbsp;	Commit – a saved snapshot of changes
+3. ###### &nbsp;	Branch – parallel line of development
+4. ###### &nbsp;	Merge – combines changes
+5. &nbsp;	History – record of all modification
 
-
+---
 
 
 
@@ -88,7 +88,7 @@ A single central server stores all versions. Developers check out files and comm
 
 **| Feature       | Local VCS | Central VCS | Distributed VCS         |**
 
-**| ------------- | --------- | ----------- | ----------------------- |**
+**|---------------| ----------|------------ | ----------------------- |**
 
 **| Collaboration | No        | Yes         | Yes                     |**
 
@@ -108,7 +108,7 @@ A single central server stores all versions. Developers check out files and comm
 
 
 
-**links:-** 
+**links:-**
 
 [**Official Download Link For Other OS**](https://git-scm.com/install/)
 
@@ -122,7 +122,7 @@ A single central server stores all versions. Developers check out files and comm
 
 
 
-**User creation in Git is necessary to identify the author of commits, support collaboration, track history, and link commits to remote platforms.**
+##### **User creation in Git is necessary to identify the author of commits, support collaboration, track history, and link commits to remote platforms.**
 
 
 
@@ -130,34 +130,38 @@ A single central server stores all versions. Developers check out files and comm
 
 
 
-1. **User Creations Command Global User
+1. User Creations Command Global User
    		git config --global user.name "Write here your user name" (assign yourself)
    		git config --global user.email "write your email address" (assign yourself)
 
-   		git config --global --list 	\[ To view all Global user]
+&nbsp;  		git config --global --list 	\[ To view all Global user]
 
-   		Applies to all repositories for the current system user.**
+   		Applies to all repositories for the current system user.
 
-   ---
-2. **User Creations Command System level
-   		git config --system user.name "Your Name"   		(Assign Yourself)
-   		git config --system user.email "your email address"     (Assign Yourself)
 
-   		Applies to all users on the system (rarely used).**
 
-   ---
+
+2. User Creations Command System level
+   git config --system user.name "Your Name"   		(Assign Yourself)
+   git config --system user.email "your email address"     (Assign Yourself)
+
+&nbsp;	Applies to all users on the system (rarely used).
+
+
+
+
 3. **User Creations Command Local User**
- 		git config user.name "Write here your user name" (Assign yourself)
+    		git config user.name "Write here your user name" (Assign yourself)
    		git config user.email "write your email address" (Assign yourself)
    ---
 
 ###### 
 
-###### &nbsp;		git config --local --list 	\[ To view all Global users]
+######  		git config --local --list 	\[ To view all Global users]
 
 
 
-###### &nbsp;		Applies only to the current repository.
+######  		Applies only to the current repository.
 
 
 
@@ -165,9 +169,9 @@ A single central server stores all versions. Developers check out files and comm
 
 ##### 
 
-##### &nbsp;	git config user.name   \*\* for Know the name of the user 
+#####  	git config user.name    for Know the name of the user
 
-##### &nbsp;	git config user.email  \*\* for Know the user email
+#####  	git config user.email   for Know the user email
 
 
 
@@ -175,119 +179,134 @@ A single central server stores all versions. Developers check out files and comm
 
 
 
-###### For Global Users 
+###### For Global Users
 
-###### &nbsp;		git config --global --unset user.mane
+######  		git config --global --unset user.mane
 
-###### &nbsp;		git config --global --unset user.email
+######  		git config --global --unset user.email
 
 ###### 
 
 ###### For System Users
 
-###### &nbsp;	     	     git config --system --unset user.name
+######  	     	     git config --system --unset user.name
 
-###### &nbsp;		     git config --system --unset user.email
+######  		     git config --system --unset user.email
 
 ###### 
 
-###### For local User 
+###### For local User
 
-###### &nbsp;		     git config --unset user.name
+######  		     git config --unset user.name
 
-###### &nbsp;		     git config --unset user.email
-
-
-Some Linux Commands
-===
+######  		     git config --unset user.email
 
 
 
+# Some Linux Commands
 
 
-1. **Directory \& File Navigation  ls, cd, pwd
-
-   	ls              # list files
-   	ls -a           # show hidden files (.git)
-   	pwd             # current directory
-   	cd folder\_name  # change directory
-   	cd ..           # move up one directory**
-
-   ---
-2. **File \& Directory Management touch, rm, mv, cp
-
-   	mkdir project        # create directory
-   	rmdir folder         # remove empty directory
-   	rm file.txt          # delete file
-   	rm -r folder         # delete folder recursively
-   	m -rf .git          # force delete git repo (dangerous)
-   	cp a.txt b.txt       # copy file
-   	mv old new           # rename / move file
-   	touch file.txt       # create empty file**
 
 
-   ---
+
+1. Directory \& File Navigation  ls, cd, pwd
+
+   ls              # list files
+   ls -a           # show hidden files (.git)
+   pwd             # current directory
+   cd folder\_name  # change directory
+   cd ..           # move up one directory
+
+   
+
+2. File \& Directory Management touch, rm, mv, cp
+
+   mkdir project        # create directory
+   rmdir folder         # remove empty directory
+   rm file.txt          # delete file
+   rm -r folder         # delete folder recursively
+   m -rf .git          # force delete git repo (dangerous)
+   cp a.txt b.txt       # copy file
+   mv old new           # rename / move file
+   touch file.txt       # create empty file
+
+   
+
+   
+
 3. **File Viewing \& Editing  cat, nano, vi
-   	cat file.txt         # view file content
-   	less file.txt        # scroll view
-   	more file.txt        # basic view
-   	nano file.txt        # terminal editor
-   	vi file.txt          # advanced editor**
+   cat file.txt         # view file content
+   less file.txt        # scroll view
+   more file.txt        # basic view
+   nano file.txt        # terminal editor
+   vi file.txt          # advanced editor**
 
+   
 
-   ---
+   
+
 4. **File Search \& Inspection
-   	find . -name file.txt     # search files
-   	grep "text" file.txt     # search text
-   	grep -r "text" .         # recursive search**
+   find . -name file.txt     # search files
+   grep "text" file.txt     # search text
+   grep -r "text" .         # recursive search**
 
-   ---
+   
+
 5. **Disk \& System Info (Occasional)
-   	df -h           # disk usage
-   	du -sh folder   # folder size
-   	whoami          # current user**
+   df -h           # disk usage
+   du -sh folder   # folder size
+   whoami          # current user**
 
-   ---
+   
+
 6. **Environment \& History (Very Useful)
-   	history            # command history
-   	clear              # clear terminal
-   	alias gs='git status'
-   	export PATH=...**
+   history            # command history
+   clear              # clear terminal
+   alias gs='git status'
+   export PATH=...**
 
-   ---
+   
+
 7. ###### **Permissions \& Ownership (Sometimes Needed)**
-7. 
-**###### &nbsp;	chmod 755 file.sh    # change permission**
+8. 
 
-###### 	**chmod +x script.sh  # make executable**
+   	**        chmod 755 file.sh    		# change permission**
 
-###### 	**chown user:user f   # change owner (admin)**
+   ###### 	    **chmod +x script.sh  	# make executable**
+
+   ###### 	    **chown user:user f   	# change owner (admin)**
+
+   
+
+   
+
+   # 2nd Step
+
+   
+
+   #### What is the use of **init** command in Git?
+
+   
+
+   ###### **git init creates a new Git repository in the current directory.**
+
+   
+
+   #### **Command for init   (Possibly only one time for a Repository**
+
+   &nbsp;	git init                              \[ Creates a new Git repository in the current directory.]
+   
+
+   
+
+   Check out the next file (Commit)
 
 
 
 
 
-# 2nd Step
 
 
-
-#### What is the use of **init** command in Git**?**
-
-
-
-###### **git init creates a new Git repository in the current directory.**
-
-
-
-#### **Command for init   (Possibly only one time for a Repository**
-
-		**git init                              \[ Creates a new Git repository in the current directory.]**
-
-
-
-
-
-
-
-
+   
+   ---
 
