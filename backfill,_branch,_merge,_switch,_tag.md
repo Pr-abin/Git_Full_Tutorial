@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # The concept of backfill, branch, merge, rebase, and switch
+=======
+# The concept of backfill, branch, merge, rebase, and switch 
+>>>>>>> new_branch
 =======
 # The concept of backfill, branch, merge, rebase, and switch 
 >>>>>>> new_branch
@@ -7,6 +11,7 @@
 
 
 1. The Concept of backfill
+<<<<<<< HEAD
 <<<<<<< HEAD
    git backfill is used in a partial clone to download missing data (commits, files, objects) that were not downloaded earlier.
 
@@ -98,6 +103,8 @@
 
    ### | tag      | Mark versions         | Label important commits   |
 =======
+=======
+>>>>>>> new_branch
    	git backfill is used in a partial clone to download missing data (commits, files, objects) that were not downloaded earlier.
    		
    	# Command of backfill
@@ -164,5 +171,8 @@
 ### | tag      | Mark versions         | Label important commits   |
 
 
+<<<<<<< HEAD
+>>>>>>> new_branch
+=======
 >>>>>>> new_branch
 
