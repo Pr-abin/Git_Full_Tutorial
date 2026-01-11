@@ -284,7 +284,7 @@ A single central server stores all versions. Developers check out files and comm
 
    
 
-   #### What is the use of **init** command in Git?
+   #### What is the use of the **init** command in Git?
 
    
 
